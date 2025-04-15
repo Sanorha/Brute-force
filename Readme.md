@@ -22,15 +22,15 @@ Ce script a été conçu dans un cadre **pédagogique** pour illustrer :
 
 ## 🧪 Exemple d'utilisation
 
-$ python3 brute_force.py
-Quel est le mot de passe : Café€
-C
-Ca
-Caf
-Café
-Café€
-Mot trouvé : Café€
-Durée : 4.12 secondes
+$ python3 brute_force.py  
+Quel est le mot de passe : Café€  
+C  
+Ca  
+Caf  
+Café  
+Café€  
+Mot trouvé : Café€  
+Durée : 4.12 secondes  
 
 ## 🧠 Pourquoi ce projet ?
 

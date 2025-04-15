@@ -14,10 +14,10 @@ Ce projet permet d'illustrer la méthode de brute force pour trouver un mot de p
 
 ```bash
 $ python3 brute_force.py
+```
 Quel est le mot de passe : test123
 Mot trouvé : test123
 Durée : 4.56 secondes
-```
 
 ## ⚠️ Avertissement
 

@@ -32,3 +32,22 @@ Café
 Café€
 Mot trouvé : Café€
 Durée : 4.12 secondes
+
+## 🧠 Pourquoi ce projet ?
+
+En cybersécurité, il est crucial de comprendre les bases des attaques, même les plus simples. Ce projet montre concrètement :
+
+- la lenteur du brute-force sans optimisation,
+- l’importance de la complexité des mots de passe,
+- les limites de l’approche naïve.
+
+Il s'agit d’un **projet d’initiation**, qui pourrait être ensuite enrichi (multithreading, dictionnaires, stats, etc.).
+
+## ⚠️ Avertissement
+
+> Ce script est **strictement éducatif**. Il ne doit en aucun cas être utilisé pour tenter de déchiffrer des mots de passe réels ou accéder à des systèmes sans autorisation.
+
+---
+
+📁 Projet réalisé dans le cadre de ma candidature à une formation en cybersécurité.  
+💬 Pour toute question ou retour : [ton-email-ou-github]

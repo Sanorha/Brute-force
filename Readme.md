@@ -24,7 +24,7 @@ Ce script a été conçu dans un cadre **pédagogique** pour illustrer :
 
 $ python3 brute_force.py
 Quel est le mot de passe : Café€
-C
+  C
 Ca
 Caf
 Café

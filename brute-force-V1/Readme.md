@@ -1,46 +1,23 @@
-# 🔐 Brute Force sur Mot de Passe – Projet Python
-
-Ce projet est une démonstration éducative d'une attaque **brute-force** réalisée en Python. Il s'agit d'un script simple qui tente de deviner un mot de passe, caractère par caractère, en utilisant une approche aléatoire.
-
-## 🎯 Objectif
-
-Ce script a été conçu dans un cadre **pédagogique** pour illustrer :
-- le fonctionnement basique d'une attaque par force brute ;
-- la gestion de l'encodage et des caractères spéciaux (comme `é`, `€`, etc.) en Python ;
-- la mise en pratique de concepts simples de programmation : boucles, gestion du temps, chaînes de caractères, import de modules, etc.
-
----
-
-## 💡 Fonctionnement
-
-- Le script demande à l'utilisateur de saisir un mot de passe.
-- Il tente ensuite de le retrouver **lettre par lettre** en comparant chaque caractère généré aléatoirement avec celui du mot de passe.
-- Il affiche chaque tentative intermédiaire.
-- À la fin, il affiche le mot trouvé ainsi que le **temps nécessaire pour y parvenir**.
-
----
-
-## 🧪 Exemple d'utilisation
-
-$ python3 brute_force_V1.py  
-Quel est le mot de passe : Café€  
-C  
-Ca  
-Caf  
-Café  
-Café€  
-Mot trouvé : Café€  
-Durée : 4.12 secondes  
+# 🔐 Brute Force V1 - Recherche de mot de passe
 
 ## 🧠 Pourquoi ce projet ?
 
-En cybersécurité, il est crucial de comprendre les bases des attaques, même les plus simples. Ce projet montre concrètement :
+Ce projet permet d'illustrer la méthode de brute force pour trouver un mot de passe. Il commence par chercher chaque caractère du mot de passe, un par un, en commençant par le premier, puis le deuxième, et ainsi de suite jusqu'à ce que le mot de passe soit entièrement trouvé. Chaque essai est un caractère généré aléatoirement, qui est comparé au caractère correspondant du mot de passe cible. Cette approche permet de visualiser la lenteur et la méthode utilisée dans les attaques par brute force.
 
-- la lenteur du brute-force sans optimisation,
-- l’importance de la complexité des mots de passe,
-- les limites de l’approche naïve.
+## 📝 Fonctionnalités
 
-Il s'agit d’un **projet d’initiation**, qui pourrait être ensuite enrichi (multithreading, dictionnaires, stats, etc.).
+- Le programme demande à l'utilisateur de saisir le mot de passe à trouver.
+- Le script génère des caractères aléatoires et les compare un par un avec chaque caractère du mot de passe jusqu'à ce qu'il soit entièrement trouvé.
+- L'efficacité de l'attaque brute force est mesurée par le temps nécessaire pour trouver le mot de passe.
+
+## ▶️ Exemple d'utilisation
+
+```bash
+$ python3 brute_force.py
+Quel est le mot de passe : test123
+Mot trouvé : test123
+Durée : 4.56 secondes
+```
 
 ## ⚠️ Avertissement
 

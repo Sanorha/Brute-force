@@ -22,7 +22,6 @@ Ce script a été conçu dans un cadre **pédagogique** pour illustrer :
 
 ## 🧪 Exemple d'utilisation
 
-```bash
 $ python3 brute_force.py
 Quel est le mot de passe : Café€
 C

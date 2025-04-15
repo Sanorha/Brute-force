@@ -1,7 +1,7 @@
 # Projet Brute Force
 Ce projet est une démonstration des attaques par brute-force appliquées à des mots de passe, avec des implémentations en Python. L'objectif est de comprendre l'impact des attaques par force brute sur des mots de passe faibles et de mettre en lumière les vulnérabilités qui en découlent.
 
-🧠 Pourquoi ce projet ?
+## 🧠 Pourquoi ce projet ?
 En cybersécurité, il est essentiel de comprendre les bases des attaques, y compris les attaques par brute force. Ce projet permet de visualiser :
 
 La lenteur d'une attaque brute-force sans optimisation.
@@ -14,7 +14,7 @@ Ce projet est destiné à des fins éducatives et pourrait être enrichi avec de
 
 Avertissement : Ce projet est strictement éducatif et ne doit pas être utilisé pour tenter de déchiffrer des mots de passe réels ou accéder à des systèmes sans autorisation.
 
-📁 Structure du dépôt
+## 📁 Structure du dépôt
 Le dépôt est divisé en deux versions principales du programme :
 
 brute-force-V1 : Une première version qui effectue une attaque par brute-force pour tester des mots de passe dans un fichier texte.

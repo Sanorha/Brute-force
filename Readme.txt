@@ -50,4 +50,3 @@ Il s'agit d’un **projet d’initiation**, qui pourrait être ensuite enrichi (
 ---
 
 📁 Projet réalisé dans le cadre de ma candidature à une formation en cybersécurité.  
-💬 Pour toute question ou retour : [ton-email-ou-github]

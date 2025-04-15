@@ -1,4 +1,4 @@
-Projet Brute Force
+# Projet Brute Force
 Ce projet est une démonstration des attaques par brute-force appliquées à des mots de passe, avec des implémentations en Python. L'objectif est de comprendre l'impact des attaques par force brute sur des mots de passe faibles et de mettre en lumière les vulnérabilités qui en découlent.
 
 🧠 Pourquoi ce projet ?
